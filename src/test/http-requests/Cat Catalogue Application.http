@@ -1,0 +1,36 @@
+GET http://localhost:8080
+
+###
+POST http://localhost:8080/cats
+Content-Type: application/json
+
+{ "name": "TEST CAT PLEASE IGNORE", "sex": "male", "dateOfBirth": "2020-01-01" }
+
+###
+POST http://localhost:8080/breeds
+Content-Type: application/json
+
+{ "id": null, "name": "test breed" }
+
+###
+PUT http://localhost:8080/cats/4/breed
+Content-Type: text/uri-list
+
+http://localhost:8080/breeds/4
+
+###
+GET http://localhost:8080/cats
+
+###
+GET http://localhost:8080/cats/4
+
+###
+GET http://localhost:8080/cats/4/breed
+
+###
+GET http://localhost:8080/breeds
+
+###
+GET http://localhost:8080/breeds/4
+
+###

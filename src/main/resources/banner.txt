@@ -3,5 +3,6 @@
 ██ ▄▄▄█▀▀█  ▐█.▪    ██ ▄▄▄█▀▀█  ▐█.▪▄█▀▀█ ██▪   ▄█▀▄ ▄█ ▀█▄█▌▐█▌▐▀▀▪▄
 ▐███▌▐█ ▪▐▌ ▐█▌·    ▐███▌▐█ ▪▐▌ ▐█▌·▐█ ▪▐▌▐█▌▐▌▐█▌.▐▌▐█▄▪▐█▐█▄█▌▐█▄▄▌
 ·▀▀▀  ▀  ▀  ▀▀▀     ·▀▀▀  ▀  ▀  ▀▀▀  ▀  ▀ .▀▀▀  ▀█▄▀▪·▀▀▀▀  ▀▀▀  ▀▀▀
+${application.formatted-version}
 
-${spring-boot.formatted-version}
+Powered by Spring Boot v${spring-boot.version}

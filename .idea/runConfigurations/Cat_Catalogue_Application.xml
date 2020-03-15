@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Cat Catalogue Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="cat-catalogue" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ca.purpleowl.examples.boot.cat.catalogue.CatCatalogueApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
