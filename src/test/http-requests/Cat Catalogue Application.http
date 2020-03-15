@@ -1,6 +1,12 @@
 GET http://localhost:8080
 
 ###
+GET http://localhost:8080/cats
+
+###
+GET http://localhost:8080/breeds
+
+###
 POST http://localhost:8080/cats
 Content-Type: application/json
 
@@ -19,18 +25,6 @@ Content-Type: text/uri-list
 http://localhost:8080/breeds/4
 
 ###
-GET http://localhost:8080/cats
-
-###
-GET http://localhost:8080/cats/4
-
-###
 GET http://localhost:8080/cats/4/breed
-
-###
-GET http://localhost:8080/breeds
-
-###
-GET http://localhost:8080/breeds/4
 
 ###
