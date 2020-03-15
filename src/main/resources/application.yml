@@ -4,7 +4,7 @@ logging:
     ca.purpleowl.examples: TRACE
 
 server:
-  port: 8085
+  port: 8080
 
 spring:
   datasource:
